@@ -3,10 +3,6 @@ cc.Class({
     extends: BaseView,
 
     properties: {
-        spineList:{
-            default:[],
-            type:sp.Skeleton,
-        },
         editbox:{
             default:null,
             type:cc.EditBox
@@ -14,27 +10,16 @@ cc.Class({
         currServerLabel:cc.Label,
 
         serverNode:cc.Node,
-        itemPerfab: {
-            default: null,
-            type: cc.Node
-        },
-        scrollView: {
-        	default: null,
-        	type: cc.ScrollView
-        },
+
         versionLab:cc.Label,
         lastNode:cc.Node,
         bgBtn:cc.Button,
         loginBtn:cc.Button,
         m_oBaseFont:cc.Font,
-        bindBtn:cc.Node,
+
         m_oBaseNode:cc.Node,
         itemBase:cc.Prefab,
 
-        newItem:cc.Prefab,
-        baseItem:cc.Prefab,
-        baseEquip:cc.Prefab,
-        baseHero:cc.Prefab,
         basePopupUI:cc.Prefab,
         profilePictureItem:cc.Prefab,
         newBasePopupUI:cc.Prefab,

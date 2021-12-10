@@ -75,14 +75,9 @@ cc.Class({
         this.createModuleItem("Net") //网络
         this.createModuleItem("User") //角色
         this.createModuleItem("Login") //登录
-        this.createModuleItem("Battle") //战斗
         this.createModuleItem("Mission") //任务
-        this.createModuleItem("Travel") //任务
-        this.createModuleItem("Arena") //商城
         this.createModuleItem("Mail") //任务
         this.createModuleItem("Shop") //商城
-        this.createModuleItem("Sign") //签到
-        this.createModuleItem("Activity") //活动
 
         this.userInfo = this.createClass("UserInfo")
     },
