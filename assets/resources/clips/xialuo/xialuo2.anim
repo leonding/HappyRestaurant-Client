@@ -1,0 +1,239 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "xialuo2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.12,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "12321": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.76,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 150
+            },
+            {
+              "frame": 1.08,
+              "value": 255
+            },
+            {
+              "frame": 1.12,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.8,
+              "value": 69.683
+            },
+            {
+              "frame": 1.08,
+              "value": 113.941
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.8,
+              "value": 1
+            },
+            {
+              "frame": 1.08,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.8,
+              "value": 1
+            },
+            {
+              "frame": 1.08,
+              "value": 2
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.8,
+              "value": 50
+            },
+            {
+              "frame": 1.08,
+              "value": 100
+            }
+          ]
+        }
+      },
+      "img_gq": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1.04,
+              "value": 255
+            },
+            {
+              "frame": 1.08,
+              "value": 0
+            }
+          ],
+          "x": [],
+          "y": [
+            {
+              "frame": 0,
+              "value": 807.047
+            },
+            {
+              "frame": 0.32,
+              "value": 151.016
+            },
+            {
+              "frame": 0.64,
+              "value": 83.45
+            },
+            {
+              "frame": 0.92,
+              "value": 69.032
+            },
+            {
+              "frame": 1.04,
+              "value": 101.071
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.6
+            },
+            {
+              "frame": 0.64,
+              "value": 0.6
+            },
+            {
+              "frame": 0.8,
+              "value": 0.6571428571428571
+            },
+            {
+              "frame": 0.92,
+              "value": 0.6
+            },
+            {
+              "frame": 1.04,
+              "value": 0.9
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.6
+            },
+            {
+              "frame": 0.64,
+              "value": 0.6
+            },
+            {
+              "frame": 0.8,
+              "value": 0.6571428571428571
+            },
+            {
+              "frame": 0.92,
+              "value": 0.6
+            },
+            {
+              "frame": 1.04,
+              "value": 0.9
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.04,
+              "value": 360
+            }
+          ]
+        }
+      },
+      "gggg": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.88,
+              "value": 0
+            },
+            {
+              "frame": 0.92,
+              "value": 255
+            },
+            {
+              "frame": 1.08,
+              "value": 255
+            },
+            {
+              "frame": 1.12,
+              "value": 0
+            }
+          ],
+          "x": [],
+          "y": [
+            {
+              "frame": 0.92,
+              "value": 66.237
+            },
+            {
+              "frame": 1.08,
+              "value": 113.941
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.92,
+              "value": 0.3
+            },
+            {
+              "frame": 1.08,
+              "value": 0.7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.92,
+              "value": 0.3
+            },
+            {
+              "frame": 1.08,
+              "value": 0.7
+            }
+          ]
+        }
+      },
+      "img_gq/img_gq": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.32,
+              "value": 0
+            },
+            {
+              "frame": 0.92,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "00a5722d-1582-48ec-8261-36826c62acb9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 27,
+  "height": 27,
+  "platformSettings": {},
+  "subMetas": {
+    "crystal_icon_combat": {
+      "ver": "1.0.4",
+      "uuid": "0b3e08b4-744d-4ce2-ab84-8b6310629f47",
+      "rawTextureUuid": "00a5722d-1582-48ec-8261-36826c62acb9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 27,
+      "height": 27,
+      "rawWidth": 27,
+      "rawHeight": 27,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

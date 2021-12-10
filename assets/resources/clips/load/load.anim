@@ -1,0 +1,190 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "load",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "load_4": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 360
+            }
+          ]
+        }
+      },
+      "load_2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": -360
+            }
+          ]
+        }
+      },
+      "load_1": {
+        "props": {
+          "opacity": []
+        }
+      },
+      "load_1/load_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.64,
+              "value": 0
+            },
+            {
+              "frame": 1.2,
+              "value": 70
+            },
+            {
+              "frame": 1.8,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "load_d2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.64,
+              "value": 0
+            },
+            {
+              "frame": 0.72,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.04,
+              "value": 0
+            },
+            {
+              "frame": 1.68,
+              "value": 0
+            },
+            {
+              "frame": 1.76,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "load_d1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.48,
+              "value": 0
+            },
+            {
+              "frame": 0.56,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.04,
+              "value": 0
+            },
+            {
+              "frame": 1.52,
+              "value": 0
+            },
+            {
+              "frame": 1.6,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "load_wz": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "load_d": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.32,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.04,
+              "value": 0
+            },
+            {
+              "frame": 1.36,
+              "value": 0
+            },
+            {
+              "frame": 1.44,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

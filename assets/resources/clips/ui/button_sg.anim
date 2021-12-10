@@ -1,0 +1,144 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "button_sg",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.95,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "button_g2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -74.8,
+                0.9
+              ]
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": [
+                61.8,
+                0.4
+              ]
+            },
+            {
+              "frame": 2.1666666666666665,
+              "value": [
+                -74.8,
+                0.9
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 20
+            },
+            {
+              "frame": 0.45,
+              "value": 50
+            },
+            {
+              "frame": 1.0333333333333334,
+              "value": 50
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": 0
+            },
+            {
+              "frame": 2.95,
+              "value": 0
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 0.7,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 1
+              }
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "skewX": [
+            {
+              "frame": 0,
+              "value": -27
+            },
+            {
+              "frame": 0.7,
+              "value": -11
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": -18
+            }
+          ]
+        }
+      },
+      "button_g1": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.8,
+                "y": 0.8
+              }
+            },
+            {
+              "frame": 1.45,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.1,
+                "y": 1.2
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 1.45,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

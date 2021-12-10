@@ -1,0 +1,22 @@
+
+syntax="proto3";
+package com.game.message.proto;
+
+enum OPErrorCode {
+
+    /////////公用错误码/////////////
+
+    //成功
+    SUCCESS = 0;
+    //动态错误标识
+    DYNAMIC_ERROR = -1;
+    //服务器繁忙，当前操作不能完成
+    SERVER_FAIL = -1000;
+    //失败
+    FAIL = -10000;
+    //银两不足
+    NOT_ENOUGH_SILVER = -10001;
+    //元宝不足
+    NOT_ENOUGH_GOLDEN = -10002;
+}
+

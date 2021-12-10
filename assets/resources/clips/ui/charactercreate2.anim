@@ -1,0 +1,276 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "charactercreate2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "1",
+  "curveData": {
+    "paths": {
+      "zs-1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                720,
+                239
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                11,
+                15
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "zs-3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.13333333333333333,
+              "value": [
+                -735,
+                -115
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                -2,
+                137
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "zs-2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.1,
+              "value": [
+                520,
+                -67
+              ]
+            },
+            {
+              "frame": 0.3,
+              "value": [
+                200,
+                -167
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 0
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "fz2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.2833333333333333,
+              "value": [
+                746,
+                277
+              ]
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": [
+                238,
+                85
+              ]
+            },
+            {
+              "frame": 1.1,
+              "value": [
+                75,
+                8
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": 75.00000000000001
+            },
+            {
+              "frame": 0.95,
+              "value": 50
+            },
+            {
+              "frame": 1.4166666666666667,
+              "value": 0
+            },
+            {
+              "frame": 2.1,
+              "value": 20
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0.2833333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.7,
+                "y": 0.7
+              }
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.925,
+                "y": 0.925
+              }
+            },
+            {
+              "frame": 0.95,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 2.1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      },
+      "img_namezz": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.0833333333333333,
+              "value": [
+                -390,
+                498
+              ]
+            },
+            {
+              "frame": 1.2833333333333334,
+              "value": [
+                -149,
+                494
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.0166666666666666,
+              "value": 0
+            },
+            {
+              "frame": 1.2833333333333334,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "label": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.2833333333333334,
+              "value": 0
+            },
+            {
+              "frame": 1.4666666666666666,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "label2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 1.6833333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "zs": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.75,
+              "value": [
+                -852,
+                -379
+              ]
+            },
+            {
+              "frame": 1.1,
+              "value": [
+                0,
+                -379
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 1.1,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

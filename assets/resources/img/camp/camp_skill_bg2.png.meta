@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "c10eebd3-4963-4074-acb0-e5b14334006a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 126,
+  "height": 126,
+  "platformSettings": {},
+  "subMetas": {
+    "camp_skill_bg2": {
+      "ver": "1.0.4",
+      "uuid": "88dab04c-fb1a-4edd-824d-eed17d3dc636",
+      "rawTextureUuid": "c10eebd3-4963-4074-acb0-e5b14334006a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 7,
+      "trimY": 7,
+      "width": 112,
+      "height": 112,
+      "rawWidth": 126,
+      "rawHeight": 126,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

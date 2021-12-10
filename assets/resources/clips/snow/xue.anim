@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "xue",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [],
+      "y": [],
+      "scaleX": [],
+      "scaleY": []
+    },
+    "paths": {
+      "snow": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.3
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -267.277
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 234.457
+            }
+          ]
+        }
+      },
+      "snow1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.3
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 231.967
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": 268.769
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

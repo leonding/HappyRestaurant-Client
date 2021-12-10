@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "a308b899-1288-4eb5-b6ba-54d240657008",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 95,
+  "height": 95,
+  "platformSettings": {},
+  "subMetas": {
+    "equipicon_shengg_jiezhi": {
+      "ver": "1.0.4",
+      "uuid": "4c01bbec-64ab-4952-b3de-1a8ba6b1e649",
+      "rawTextureUuid": "a308b899-1288-4eb5-b6ba-54d240657008",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 95,
+      "height": 95,
+      "rawWidth": 95,
+      "rawHeight": 95,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

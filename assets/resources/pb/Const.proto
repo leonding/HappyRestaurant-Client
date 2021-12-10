@@ -1,0 +1,46 @@
+syntax="proto3";
+package com.game.message.proto;
+
+//性别
+enum sexType {
+    BOY = 1; //男
+    GIRL = 2; //女
+}
+
+//渠道类型
+enum platformType {
+    LOCAL = 1; //本地包
+    IOS = 1000;
+    GAME_CENTER = 1001;
+}
+
+// 玩家属性类型定义
+enum playerAttr {
+    /**********属性推送变化值 <2000**********/
+    //系统免费钻石
+    GOLD = 1001;
+    //银元宝
+    SILVER = 1002;
+}
+
+// 数据类型定义
+enum itemType {
+    // 玩家属性
+    PLAYER_ATTR = 10000;
+}
+
+//商店类型
+enum ShopType {
+    SHOP_COMMON = 0; //杂货商店
+    SHOP_GEM = 1; //宝石商店----
+    SHOP_GODLY = 2; //神器商店----
+    SHOP_ARENA = 3; //竞技场商店
+    SHOP_ALLIANCE = 4; //公会商店
+}
+
+enum taskType {
+    KILL_BOSS = 1; // 击杀BOSS
+    UP_LEVEL = 2; // 升级
+    EQUIP_STRENGTH_LEVEL = 3; // 装备强化等级
+    GEMSTONE_LEVEL = 4; // 宝石等级
+}

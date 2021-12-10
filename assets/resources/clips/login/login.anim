@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "login",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.4,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "zhezhao/particle_texture": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.2
+            }
+          ]
+        }
+      },
+      "guang": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 411.354
+            }
+          ],
+          "x": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.2
+            }
+          ],
+          "angle": []
+        }
+      },
+      "zhezhao/saoguagn": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -220.478
+            },
+            {
+              "frame": 1.4,
+              "value": 258.455
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 29.698
+            },
+            {
+              "frame": 1.4,
+              "value": -8.741
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.9
+            },
+            {
+              "frame": 1.4,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.4,
+              "value": 1.1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

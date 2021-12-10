@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "802f312f-f5d4-4699-a296-aaeea27714e9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 95,
+  "height": 95,
+  "platformSettings": {},
+  "subMetas": {
+    "equipicon_shoub_wuqi": {
+      "ver": "1.0.4",
+      "uuid": "77ac4815-deb8-4e99-a4a9-7a32f09715bf",
+      "rawTextureUuid": "802f312f-f5d4-4699-a296-aaeea27714e9",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 95,
+      "height": 95,
+      "rawWidth": 95,
+      "rawHeight": 95,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

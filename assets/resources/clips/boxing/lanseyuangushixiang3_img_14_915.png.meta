@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "f9d6d362-6f8b-4f1b-aea0-9e8f2167ec54",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 122,
+  "height": 120,
+  "platformSettings": {},
+  "subMetas": {
+    "lanseyuangushixiang3_img_14_915": {
+      "ver": "1.0.4",
+      "uuid": "a69533d1-f00c-4277-a872-5042ff56d349",
+      "rawTextureUuid": "f9d6d362-6f8b-4f1b-aea0-9e8f2167ec54",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 122,
+      "height": 120,
+      "rawWidth": 122,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

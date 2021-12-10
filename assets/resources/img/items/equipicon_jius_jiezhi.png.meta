@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "5379d583-5781-4c99-b724-26ba496a8815",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 95,
+  "height": 95,
+  "platformSettings": {},
+  "subMetas": {
+    "equipicon_jius_jiezhi": {
+      "ver": "1.0.4",
+      "uuid": "9f37bc83-638d-4f59-b2f7-52a3acc20590",
+      "rawTextureUuid": "5379d583-5781-4c99-b724-26ba496a8815",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 4.5,
+      "trimX": 10,
+      "trimY": 1,
+      "width": 77,
+      "height": 84,
+      "rawWidth": 95,
+      "rawHeight": 95,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,889 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "HomePageView",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 12,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "New ScrollView/view/castle_img_chengb2": {
+        "props": {
+          "y": [
+            {
+              "frame": 6,
+              "value": 444.919
+            }
+          ],
+          "x": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 6,
+              "value": 1.2
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 6,
+              "value": 1.2
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun5": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -131.259
+            },
+            {
+              "frame": 12,
+              "value": -317.068
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 502.879
+            },
+            {
+              "frame": 12,
+              "value": 603.455
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.76,
+              "value": 255
+            },
+            {
+              "frame": 6.16,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun5 copy": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -225.40222666666668
+            },
+            {
+              "frame": 5.96,
+              "value": -317.068
+            },
+            {
+              "frame": 6,
+              "value": -131.259
+            },
+            {
+              "frame": 12,
+              "value": -222.92477333333335
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 553.8375066666666
+            },
+            {
+              "frame": 5.96,
+              "value": 603.455
+            },
+            {
+              "frame": 6,
+              "value": 502.879
+            },
+            {
+              "frame": 12,
+              "value": 552.4964933333333
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 5.96,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 11.84,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.9013333333333334
+            },
+            {
+              "frame": 5.96,
+              "value": 1
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 0.8986666666666667
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.9013333333333334
+            },
+            {
+              "frame": 5.96,
+              "value": 1
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 0.8986666666666667
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun3": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.76,
+              "value": 255
+            },
+            {
+              "frame": 6.16,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 314.109
+            },
+            {
+              "frame": 12,
+              "value": 381.33
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -136.888
+            },
+            {
+              "frame": 12,
+              "value": -370.331
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun3 copy": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.0026666666666666
+            },
+            {
+              "frame": 5.96,
+              "value": 1.2
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.0026666666666666
+            },
+            {
+              "frame": 5.96,
+              "value": 1.2
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.16,
+              "value": 255
+            },
+            {
+              "frame": 5.96,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 11.84,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 255
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 348.16764
+            },
+            {
+              "frame": 5.96,
+              "value": 381.33
+            },
+            {
+              "frame": 6,
+              "value": 314.109
+            },
+            {
+              "frame": 12,
+              "value": 347.7195
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -255.1657866666667
+            },
+            {
+              "frame": 5.96,
+              "value": -370.331
+            },
+            {
+              "frame": 6,
+              "value": -136.888
+            },
+            {
+              "frame": 12,
+              "value": -253.60950000000003
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun4": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [],
+          "y": [],
+          "x": [],
+          "opacity": []
+        }
+      },
+      "New ScrollView/view/castle_img_yun6": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 45.685
+            },
+            {
+              "frame": 12,
+              "value": 214.947
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 543.147
+            },
+            {
+              "frame": 12,
+              "value": 641.562
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1.0733333333333333
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1.0186666666666666
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.76,
+              "value": 255
+            },
+            {
+              "frame": 6.16,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 247.71428571428572
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun6 copy": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 115.05900000000001
+            },
+            {
+              "frame": 5.96,
+              "value": 184.433
+            },
+            {
+              "frame": 6,
+              "value": 45.685
+            },
+            {
+              "frame": 12,
+              "value": 114.13401333333334
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 585.4480000000001
+            },
+            {
+              "frame": 5.96,
+              "value": 627.749
+            },
+            {
+              "frame": 6,
+              "value": 543.147
+            },
+            {
+              "frame": 12,
+              "value": 584.8839866666667
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.0500000000000003
+            },
+            {
+              "frame": 5.96,
+              "value": 1.3
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1.0466666666666669
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 5.96,
+              "value": 1.2
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 0.9973333333333334
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 5.96,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 11.84,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun1": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 174.695
+            },
+            {
+              "frame": 12,
+              "value": 356.669
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 494.97
+            },
+            {
+              "frame": 12,
+              "value": 560.48
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.1
+            },
+            {
+              "frame": 12,
+              "value": 1.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 12,
+              "value": 1.1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.76,
+              "value": 255
+            },
+            {
+              "frame": 6.16,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun1 copy": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 265.682
+            },
+            {
+              "frame": 5.96,
+              "value": 356.669
+            },
+            {
+              "frame": 6,
+              "value": 174.695
+            },
+            {
+              "frame": 12,
+              "value": 264.46884
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 527.725
+            },
+            {
+              "frame": 5.96,
+              "value": 560.48
+            },
+            {
+              "frame": 6,
+              "value": 494.97
+            },
+            {
+              "frame": 12,
+              "value": 527.2882666666667
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.2000000000000002
+            },
+            {
+              "frame": 5.96,
+              "value": 1.3
+            },
+            {
+              "frame": 6,
+              "value": 1.1
+            },
+            {
+              "frame": 12,
+              "value": 1.1986666666666668
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.05
+            },
+            {
+              "frame": 5.96,
+              "value": 1.1
+            },
+            {
+              "frame": 6,
+              "value": 1
+            },
+            {
+              "frame": 12,
+              "value": 1.0493333333333335
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 5.96,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 11.84,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun2": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -256.996
+            },
+            {
+              "frame": 12,
+              "value": -362.801
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 479.971
+            },
+            {
+              "frame": 12,
+              "value": 521.06
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -0.8
+            },
+            {
+              "frame": 12,
+              "value": -1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.76,
+              "value": 255
+            },
+            {
+              "frame": 6.16,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "New ScrollView/view/castle_img_yun2 copy": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -309.8985
+            },
+            {
+              "frame": 5.96,
+              "value": -362.801
+            },
+            {
+              "frame": 6,
+              "value": -256.996
+            },
+            {
+              "frame": 12,
+              "value": -309.1931333333333
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 500.5155
+            },
+            {
+              "frame": 5.96,
+              "value": 521.06
+            },
+            {
+              "frame": 6,
+              "value": 479.971
+            },
+            {
+              "frame": 12,
+              "value": 500.2415733333333
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -0.9
+            },
+            {
+              "frame": 5.96,
+              "value": -1
+            },
+            {
+              "frame": 6,
+              "value": -0.8
+            },
+            {
+              "frame": 12,
+              "value": -0.8986666666666667
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.9
+            },
+            {
+              "frame": 5.96,
+              "value": 1
+            },
+            {
+              "frame": 6,
+              "value": 0.8
+            },
+            {
+              "frame": 12,
+              "value": 0.8986666666666667
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 5.96,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 11.84,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

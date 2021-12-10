@@ -1,0 +1,184 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kuang01",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.4,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "kuang1": {
+        "comps": {},
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -52.5
+            },
+            {
+              "frame": 0.6,
+              "value": 53.466
+            },
+            {
+              "frame": 1.2,
+              "value": 53.466
+            },
+            {
+              "frame": 1.8,
+              "value": -50.749
+            },
+            {
+              "frame": 2.4,
+              "value": -52.5
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -53.372
+            },
+            {
+              "frame": 0.6,
+              "value": -53.372
+            },
+            {
+              "frame": 1.2,
+              "value": 53.301
+            },
+            {
+              "frame": 1.8,
+              "value": 53.301
+            },
+            {
+              "frame": 2.4,
+              "value": -53.372
+            }
+          ],
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 255
+            },
+            {
+              "frame": 2.4,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "kuang2": {
+        "comps": {},
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 53.466
+            },
+            {
+              "frame": 0.6,
+              "value": -50.749
+            },
+            {
+              "frame": 1.2,
+              "value": -52.5
+            },
+            {
+              "frame": 1.8,
+              "value": 53.466
+            },
+            {
+              "frame": 2.4,
+              "value": 53.466
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 53.301
+            },
+            {
+              "frame": 0.6,
+              "value": 53.301
+            },
+            {
+              "frame": 1.2,
+              "value": -53.372
+            },
+            {
+              "frame": 1.8,
+              "value": -53.372
+            },
+            {
+              "frame": 2.4,
+              "value": 53.301
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.2,
+              "value": 255
+            },
+            {
+              "frame": 1.8,
+              "value": 255
+            }
+          ],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "share_ZB_k7/saoguang": {
+        "comps": {},
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -132.243
+            },
+            {
+              "frame": 0.8,
+              "value": 122.995
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -155.107
+            },
+            {
+              "frame": 0.8,
+              "value": 132.21
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 3
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "832edea2-31e9-4608-9fcc-3f5aef55adbd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 191,
+  "height": 177,
+  "platformSettings": {},
+  "subMetas": {
+    "equipicon_zhuan_hefeisituosi": {
+      "ver": "1.0.4",
+      "uuid": "eb582c74-7448-40b5-be61-166b5b1fbc1f",
+      "rawTextureUuid": "832edea2-31e9-4608-9fcc-3f5aef55adbd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6.5,
+      "offsetY": -1,
+      "trimX": 22,
+      "trimY": 5,
+      "width": 160,
+      "height": 169,
+      "rawWidth": 191,
+      "rawHeight": 177,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

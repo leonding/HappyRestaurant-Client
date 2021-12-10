@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "0a7812a1-adb8-4bc1-9013-0586a68d4fd0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 78,
+  "height": 2,
+  "platformSettings": {},
+  "subMetas": {
+    "bossbattle_img_flt1": {
+      "ver": "1.0.4",
+      "uuid": "012e1b57-b1ca-42d6-a9cc-cde6b2bde845",
+      "rawTextureUuid": "0a7812a1-adb8-4bc1-9013-0586a68d4fd0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 78,
+      "height": 2,
+      "rawWidth": 78,
+      "rawHeight": 2,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

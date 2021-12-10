@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "392a6ebc-8a58-4ad6-a9af-8252c20dea02",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 326,
+  "height": 345,
+  "platformSettings": {},
+  "subMetas": {
+    "Settlement_logo_victory2_1": {
+      "ver": "1.0.4",
+      "uuid": "06e5bda0-9305-420c-9ebc-3f7375d5caeb",
+      "rawTextureUuid": "392a6ebc-8a58-4ad6-a9af-8252c20dea02",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 326,
+      "height": 345,
+      "rawWidth": 326,
+      "rawHeight": 345,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

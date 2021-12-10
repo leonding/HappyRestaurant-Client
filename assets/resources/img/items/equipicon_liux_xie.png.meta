@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "406f9b94-9c7f-4023-b2b7-92ae27267540",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 95,
+  "height": 95,
+  "platformSettings": {},
+  "subMetas": {
+    "equipicon_liux_xie": {
+      "ver": "1.0.4",
+      "uuid": "d88eed83-cec7-4032-86b2-21c0fb520506",
+      "rawTextureUuid": "406f9b94-9c7f-4023-b2b7-92ae27267540",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 95,
+      "height": 95,
+      "rawWidth": 95,
+      "rawHeight": 95,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

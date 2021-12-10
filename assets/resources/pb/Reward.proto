@@ -1,0 +1,18 @@
+syntax="proto3";
+package com.game.message.proto;
+
+import "Const.proto";
+
+message RewardItem {
+    required int64 id = 1;
+    required int32 baseId = 2;
+    required itemType itemType = 3;
+    required int32 itemCount = 4;
+}
+
+//数值类型
+message RewardAttrInfo {
+    optional playerAttr attr = 1;
+    optional int32 type = 2; //1:总值 2:变化值
+    optional int64 count = 3;
+}

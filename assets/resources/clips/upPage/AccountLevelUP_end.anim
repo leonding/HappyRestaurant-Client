@@ -1,0 +1,471 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "AccountLevelUP_end",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "New Sprite(Splash)": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 180
+            },
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_hz": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": 1.97
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 269.667
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_cb": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 325.317
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": 188.517
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_cb_1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 325.317
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -188.517
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_cb2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -204.163
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 311.126
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_g5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 262.873
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -14.604
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_cb2_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": 204.163
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 311.126
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_cd": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 197.693
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_wz_djts": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/shengji_img_hz_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.3
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/share_img_djdb": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/share_img_djdb/levelTitle": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/share_img_djdb/New Node/levelBefore": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/share_img_djdb/New Node/Settlement_img_qianw": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/share_img_djdb/New Node/levelAfter": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/awardArea/Settlement_img_fengx": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/awardArea/awardTitle": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/awardArea/message": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo/lizixingxing": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "m_oBaseNode": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "m_oBaseNode/pageLogo": {
+        "props": {
+          "scaleX": [],
+          "scaleY": []
+        }
+      }
+    }
+  },
+  "events": []
+}

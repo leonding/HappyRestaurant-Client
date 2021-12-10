@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "e76f5c81-a162-468c-998a-7bc29d4fbefd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 64,
+  "height": 64,
+  "platformSettings": {},
+  "subMetas": {
+    "camp_icon_beiou": {
+      "ver": "1.0.4",
+      "uuid": "22c1746f-b0fa-4127-9339-5b51e0bf90d8",
+      "rawTextureUuid": "e76f5c81-a162-468c-998a-7bc29d4fbefd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 62,
+      "height": 62,
+      "rawWidth": 64,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "628be956-d060-4736-9ab3-386b0438998d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 640,
+  "height": 179,
+  "platformSettings": {},
+  "subMetas": {
+    "Settlement_logo_victory2_416": {
+      "ver": "1.0.4",
+      "uuid": "b236f29e-821a-443c-a49f-e8c04d9c98c5",
+      "rawTextureUuid": "628be956-d060-4736-9ab3-386b0438998d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 0,
+      "trimX": 3,
+      "trimY": 0,
+      "width": 637,
+      "height": 179,
+      "rawWidth": 640,
+      "rawHeight": 179,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

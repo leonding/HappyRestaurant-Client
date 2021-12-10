@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ui_fight_g",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.15,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "fight_01": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 100
+            },
+            {
+              "frame": 1.55,
+              "value": 255
+            },
+            {
+              "frame": 3.15,
+              "value": 100
+            }
+          ]
+        }
+      },
+      "New Particle": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 3.15,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

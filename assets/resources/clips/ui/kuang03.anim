@@ -1,0 +1,355 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "kuang03",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.4,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "kuang3": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -52.5
+            },
+            {
+              "frame": 0.6,
+              "value": 53.466
+            },
+            {
+              "frame": 1.2,
+              "value": 53.466
+            },
+            {
+              "frame": 1.8,
+              "value": -50.749
+            },
+            {
+              "frame": 2.4,
+              "value": -52.5
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -53.372
+            },
+            {
+              "frame": 0.6,
+              "value": -53.372
+            },
+            {
+              "frame": 1.2,
+              "value": 53.301
+            },
+            {
+              "frame": 1.8,
+              "value": 53.301
+            },
+            {
+              "frame": 2.4,
+              "value": -53.372
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 255
+            },
+            {
+              "frame": 2.4,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "kuang31": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 53.466
+            },
+            {
+              "frame": 0.6,
+              "value": -50.749
+            },
+            {
+              "frame": 1.2,
+              "value": -52.5
+            },
+            {
+              "frame": 1.8,
+              "value": 53.466
+            },
+            {
+              "frame": 2.4,
+              "value": 53.466
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 53.301
+            },
+            {
+              "frame": 0.6,
+              "value": 53.301
+            },
+            {
+              "frame": 1.2,
+              "value": -53.372
+            },
+            {
+              "frame": 1.8,
+              "value": -53.372
+            },
+            {
+              "frame": 2.4,
+              "value": 53.301
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.2,
+              "value": 255
+            },
+            {
+              "frame": 1.8,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "share_img_qpzz/saoguang3": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -132.243
+            },
+            {
+              "frame": 1.16,
+              "value": 122.995
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -155.107
+            },
+            {
+              "frame": 1.16,
+              "value": 132.21
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 3
+            }
+          ]
+        }
+      },
+      "shandian/kaili_img_40_126": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.12,
+              "value": 0
+            },
+            {
+              "frame": 1.16,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 1.16,
+              "value": 12.5
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.16,
+              "value": 11
+            }
+          ]
+        }
+      },
+      "shandian": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "x": [
+            {
+              "frame": 1.16,
+              "value": -3
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.16,
+              "value": -4
+            }
+          ]
+        }
+      },
+      "shandian/kaili_img_36_332": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.24,
+              "value": 0
+            },
+            {
+              "frame": 1.28,
+              "value": 255
+            },
+            {
+              "frame": 1.32,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 1.28,
+              "value": -9.5
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.28,
+              "value": 10
+            }
+          ]
+        }
+      },
+      "shandian/kaili_img_37_462": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.4,
+              "value": 0
+            },
+            {
+              "frame": 1.44,
+              "value": 255
+            },
+            {
+              "frame": 1.48,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 1.44,
+              "value": -4
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.44,
+              "value": 42
+            }
+          ]
+        }
+      },
+      "shandian/kaili_img_38_201": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.48,
+              "value": 0
+            },
+            {
+              "frame": 1.52,
+              "value": 255
+            },
+            {
+              "frame": 1.56,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 1.52,
+              "value": 44
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.52,
+              "value": 2.5
+            }
+          ]
+        }
+      },
+      "shandian/kaili_img_39_585": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.52,
+              "value": 0
+            },
+            {
+              "frame": 1.56,
+              "value": 255
+            },
+            {
+              "frame": 1.6,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 1.56,
+              "value": 22.5
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.56,
+              "value": 16
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

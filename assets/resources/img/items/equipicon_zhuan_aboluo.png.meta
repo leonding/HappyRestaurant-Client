@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "b77cc035-6ffe-4891-8f99-4375dcb6384b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 191,
+  "height": 177,
+  "platformSettings": {},
+  "subMetas": {
+    "equipicon_zhuan_aboluo": {
+      "ver": "1.0.4",
+      "uuid": "30da138b-91cf-4b5f-8bb1-94c5ac23f95d",
+      "rawTextureUuid": "b77cc035-6ffe-4891-8f99-4375dcb6384b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -3.5,
+      "trimX": 12,
+      "trimY": 7,
+      "width": 165,
+      "height": 170,
+      "rawWidth": 191,
+      "rawHeight": 177,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

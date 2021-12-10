@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "95164766-5a7b-4cdc-8d8b-3063ead207ac",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 222,
+  "height": 422,
+  "platformSettings": {},
+  "subMetas": {
+    "fighting_img_jeso": {
+      "ver": "1.0.4",
+      "uuid": "82e863bd-36be-4616-bf8a-7a1b70feef17",
+      "rawTextureUuid": "95164766-5a7b-4cdc-8d8b-3063ead207ac",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 220,
+      "height": 422,
+      "rawWidth": 222,
+      "rawHeight": 422,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

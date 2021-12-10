@@ -1,0 +1,33 @@
+syntax = "proto3";
+package com.game.message.proto;
+
+option java_package = "org.tinygame.herostory.msg";
+option java_outer_classname = "PlayerProto";
+
+//玩家基本信息
+message PlayerInfo {
+    int64 playerId = 1; //玩家Id
+    int32 cash = 2; //现金红包
+    int64 money = 3; //钞票
+    int32 gold = 4; //元宝
+    string name = 5; //名字
+    int32 head = 6; //头像
+    int64 loginTime = 7; //登录时间
+    int32 signboard = 8; //招牌
+    int32 horologe = 9;//钟表
+}
+
+//请求登录
+message PlayerLoginCmd {
+    string puid = 1;
+    int64 playerId = 2;
+    int32 sessionID = 3;
+}
+
+//回复登录
+message PlayerLoginRet {
+    int32 result = 1;
+    int64 playerId = 2;
+    PlayerInfo playerInfo = 3;
+}
+

@@ -1,0 +1,2304 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "level_up_plus",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.8,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "shengjie/j9": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 230
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 1.4,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.1
+            },
+            {
+              "frame": 0.8,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.4
+            },
+            {
+              "frame": 0.8,
+              "value": 0.4
+            }
+          ],
+          "x": [],
+          "y": [
+            {
+              "frame": 0,
+              "value": -95
+            }
+          ]
+        }
+      },
+      "shengjie/j9_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 230
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 1.4,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.1
+            },
+            {
+              "frame": 0.8,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.4
+            },
+            {
+              "frame": 0.8,
+              "value": 0.4
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -95
+            }
+          ]
+        }
+      },
+      "shengji": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie/j81": {
+        "props": {
+          "y": [
+            {
+              "frame": 0.28,
+              "value": -58.762
+            },
+            {
+              "frame": 1,
+              "value": 43.536
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.28,
+              "value": 0.5
+            },
+            {
+              "frame": 0.64,
+              "value": 1
+            },
+            {
+              "frame": 1,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.28,
+              "value": 0.5
+            },
+            {
+              "frame": 0.64,
+              "value": 1
+            },
+            {
+              "frame": 1,
+              "value": 0.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.28,
+              "value": 0
+            },
+            {
+              "frame": 0.64,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie/j82": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.32,
+              "value": 0.5
+            },
+            {
+              "frame": 0.68,
+              "value": 1
+            },
+            {
+              "frame": 1.04,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.32,
+              "value": 0.5
+            },
+            {
+              "frame": 0.68,
+              "value": 1
+            },
+            {
+              "frame": 1.04,
+              "value": 0.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.28,
+              "value": 0
+            },
+            {
+              "frame": 0.32,
+              "value": 0
+            },
+            {
+              "frame": 0.68,
+              "value": 255
+            },
+            {
+              "frame": 1.04,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.32,
+              "value": 45.704
+            },
+            {
+              "frame": 1.04,
+              "value": 72.949
+            }
+          ]
+        }
+      },
+      "shengjie/j83": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.24,
+              "value": 0.5
+            },
+            {
+              "frame": 0.6,
+              "value": 1
+            },
+            {
+              "frame": 0.96,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.24,
+              "value": 0.5
+            },
+            {
+              "frame": 0.6,
+              "value": 1
+            },
+            {
+              "frame": 0.96,
+              "value": 0.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 0
+            },
+            {
+              "frame": 0.6,
+              "value": 255
+            },
+            {
+              "frame": 0.96,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.24,
+              "value": -74.201
+            },
+            {
+              "frame": 0.96,
+              "value": -22.796
+            }
+          ]
+        }
+      },
+      "shengjie/j84": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.64,
+              "value": 0.5
+            },
+            {
+              "frame": 0.96,
+              "value": 0.8
+            },
+            {
+              "frame": 1.28,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.64,
+              "value": 0.5
+            },
+            {
+              "frame": 0.96,
+              "value": 0.8
+            },
+            {
+              "frame": 1.28,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.64,
+              "value": 0
+            },
+            {
+              "frame": 0.96,
+              "value": 255
+            },
+            {
+              "frame": 1.28,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.64,
+              "value": -76.702
+            },
+            {
+              "frame": 1.28,
+              "value": 15.314
+            }
+          ]
+        }
+      },
+      "shengjie/j85": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.56,
+              "value": 0.5
+            },
+            {
+              "frame": 0.88,
+              "value": 1
+            },
+            {
+              "frame": 1.2,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.56,
+              "value": 0.5
+            },
+            {
+              "frame": 0.88,
+              "value": 1
+            },
+            {
+              "frame": 1.2,
+              "value": 0.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.52,
+              "value": 0
+            },
+            {
+              "frame": 0.56,
+              "value": 0
+            },
+            {
+              "frame": 0.88,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.56,
+              "value": 66.483
+            },
+            {
+              "frame": 1.2,
+              "value": 135.546
+            }
+          ]
+        }
+      },
+      "shengjie/j86": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.72,
+              "value": 0.5
+            },
+            {
+              "frame": 1.04,
+              "value": 0.8
+            },
+            {
+              "frame": 1.36,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.72,
+              "value": 0.5
+            },
+            {
+              "frame": 1.04,
+              "value": 0.8
+            },
+            {
+              "frame": 1.36,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.68,
+              "value": 0
+            },
+            {
+              "frame": 0.72,
+              "value": 0
+            },
+            {
+              "frame": 1.04,
+              "value": 255
+            },
+            {
+              "frame": 1.36,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.72,
+              "value": 71.024
+            },
+            {
+              "frame": 1.36,
+              "value": 126.862
+            }
+          ]
+        }
+      },
+      "shengjie/j87": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.92,
+              "value": 0.5
+            },
+            {
+              "frame": 1.24,
+              "value": 0.7
+            },
+            {
+              "frame": 1.56,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.92,
+              "value": 0.5
+            },
+            {
+              "frame": 1.24,
+              "value": 0.7
+            },
+            {
+              "frame": 1.56,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.88,
+              "value": 0
+            },
+            {
+              "frame": 0.92,
+              "value": 0
+            },
+            {
+              "frame": 1.24,
+              "value": 255
+            },
+            {
+              "frame": 1.56,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.92,
+              "value": -70.879
+            },
+            {
+              "frame": 1.56,
+              "value": 2.102
+            }
+          ]
+        }
+      },
+      "shengjie/j88": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 1.08,
+              "value": 0.5
+            },
+            {
+              "frame": 1.4,
+              "value": 0.8
+            },
+            {
+              "frame": 1.72,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.08,
+              "value": 0.5
+            },
+            {
+              "frame": 1.4,
+              "value": 0.8
+            },
+            {
+              "frame": 1.72,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.04,
+              "value": 0
+            },
+            {
+              "frame": 1.08,
+              "value": 0
+            },
+            {
+              "frame": 1.4,
+              "value": 255
+            },
+            {
+              "frame": 1.72,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.08,
+              "value": 14.136
+            },
+            {
+              "frame": 1.72,
+              "value": 111.117
+            }
+          ]
+        }
+      },
+      "shengjie/j71": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.52,
+              "value": 0.2
+            },
+            {
+              "frame": 0.84,
+              "value": 0.3
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.52,
+              "value": 0.2
+            },
+            {
+              "frame": 0.84,
+              "value": 0.5
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.48,
+              "value": 0
+            },
+            {
+              "frame": 0.52,
+              "value": 0
+            },
+            {
+              "frame": 0.84,
+              "value": 255
+            },
+            {
+              "frame": 1.16,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.52,
+              "value": -56.647
+            },
+            {
+              "frame": 1.16,
+              "value": -26.371
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -68.131
+            }
+          ]
+        }
+      },
+      "shengjie/j72": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.6,
+              "value": 0.2
+            },
+            {
+              "frame": 0.92,
+              "value": 0.3
+            },
+            {
+              "frame": 1.24,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.6,
+              "value": 0.2
+            },
+            {
+              "frame": 0.92,
+              "value": 0.5
+            },
+            {
+              "frame": 1.24,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.56,
+              "value": 0
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.92,
+              "value": 255
+            },
+            {
+              "frame": 1.24,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.6,
+              "value": 39.572
+            },
+            {
+              "frame": 1.24,
+              "value": 78.143
+            }
+          ]
+        }
+      },
+      "shengjie/j73": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.68,
+              "value": 0.2
+            },
+            {
+              "frame": 1,
+              "value": 0.3
+            },
+            {
+              "frame": 1.32,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.68,
+              "value": 0.2
+            },
+            {
+              "frame": 1,
+              "value": 0.5
+            },
+            {
+              "frame": 1.32,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.64,
+              "value": 0
+            },
+            {
+              "frame": 0.68,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.32,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.68,
+              "value": 27.411
+            },
+            {
+              "frame": 1.32,
+              "value": 60.004
+            }
+          ]
+        }
+      },
+      "shengjie/j74": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.76,
+              "value": 0.2
+            },
+            {
+              "frame": 1.08,
+              "value": 0.3
+            },
+            {
+              "frame": 1.4,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.76,
+              "value": 0.2
+            },
+            {
+              "frame": 1.08,
+              "value": 0.5
+            },
+            {
+              "frame": 1.4,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.72,
+              "value": 0
+            },
+            {
+              "frame": 0.76,
+              "value": 0
+            },
+            {
+              "frame": 1.08,
+              "value": 255
+            },
+            {
+              "frame": 1.4,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.76,
+              "value": 0.041
+            },
+            {
+              "frame": 1.4,
+              "value": 44.244
+            }
+          ]
+        }
+      },
+      "shengjie/j75": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.84,
+              "value": 0.2
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            },
+            {
+              "frame": 1.48,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.84,
+              "value": 0.2
+            },
+            {
+              "frame": 1.16,
+              "value": 0.4
+            },
+            {
+              "frame": 1.48,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.8,
+              "value": 0
+            },
+            {
+              "frame": 0.84,
+              "value": 0
+            },
+            {
+              "frame": 1.16,
+              "value": 255
+            },
+            {
+              "frame": 1.48,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.84,
+              "value": -0.572
+            },
+            {
+              "frame": 1.48,
+              "value": 51.6
+            }
+          ]
+        }
+      },
+      "shengjie/j76": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.52,
+              "value": 0.2
+            },
+            {
+              "frame": 0.84,
+              "value": 0.3
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.52,
+              "value": 0.2
+            },
+            {
+              "frame": 0.84,
+              "value": 0.5
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.48,
+              "value": 0
+            },
+            {
+              "frame": 0.52,
+              "value": 0
+            },
+            {
+              "frame": 0.84,
+              "value": 255
+            },
+            {
+              "frame": 1.16,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.52,
+              "value": 76.579
+            },
+            {
+              "frame": 1.16,
+              "value": 94.129
+            }
+          ]
+        }
+      },
+      "shengjie/j77": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.64,
+              "value": 0.2
+            },
+            {
+              "frame": 0.96,
+              "value": 0.3
+            },
+            {
+              "frame": 1.28,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.64,
+              "value": 0.2
+            },
+            {
+              "frame": 0.96,
+              "value": 0.5
+            },
+            {
+              "frame": 1.28,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.64,
+              "value": 0
+            },
+            {
+              "frame": 0.96,
+              "value": 255
+            },
+            {
+              "frame": 1.28,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.64,
+              "value": -47.004
+            },
+            {
+              "frame": 1.28,
+              "value": -20.046
+            }
+          ]
+        }
+      },
+      "shengjie/j78": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.8,
+              "value": 0.2
+            },
+            {
+              "frame": 1.12,
+              "value": 0.3
+            },
+            {
+              "frame": 1.44,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.8,
+              "value": 0.2
+            },
+            {
+              "frame": 1.12,
+              "value": 0.5
+            },
+            {
+              "frame": 1.44,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.76,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 0
+            },
+            {
+              "frame": 1.12,
+              "value": 255
+            },
+            {
+              "frame": 1.44,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.8,
+              "value": -66.187
+            },
+            {
+              "frame": 1.44,
+              "value": -25.128
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": 72.478
+            }
+          ]
+        }
+      },
+      "shengjie/j79": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.92,
+              "value": 0.2
+            },
+            {
+              "frame": 1.24,
+              "value": 0.3
+            },
+            {
+              "frame": 1.56,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.92,
+              "value": 0.2
+            },
+            {
+              "frame": 1.24,
+              "value": 0.5
+            },
+            {
+              "frame": 1.56,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.88,
+              "value": 0
+            },
+            {
+              "frame": 0.92,
+              "value": 0
+            },
+            {
+              "frame": 1.24,
+              "value": 255
+            },
+            {
+              "frame": 1.56,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.92,
+              "value": 1.002
+            },
+            {
+              "frame": 1.56,
+              "value": 34.181
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.88,
+              "value": -57.347
+            }
+          ]
+        }
+      },
+      "shengjie/j710": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 1.04,
+              "value": 0.2
+            },
+            {
+              "frame": 1.36,
+              "value": 0.3
+            },
+            {
+              "frame": 1.68,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.04,
+              "value": 0.2
+            },
+            {
+              "frame": 1.36,
+              "value": 0.5
+            },
+            {
+              "frame": 1.68,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.04,
+              "value": 0
+            },
+            {
+              "frame": 1.36,
+              "value": 255
+            },
+            {
+              "frame": 1.68,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.04,
+              "value": -47.523
+            },
+            {
+              "frame": 1.68,
+              "value": -18.491
+            }
+          ]
+        }
+      },
+      "shengjie/j711": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 1.12,
+              "value": 0.2
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            },
+            {
+              "frame": 1.48,
+              "value": 0.3
+            },
+            {
+              "frame": 1.8,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.12,
+              "value": 0.2
+            },
+            {
+              "frame": 1.16,
+              "value": 0.2
+            },
+            {
+              "frame": 1.48,
+              "value": 0.5
+            },
+            {
+              "frame": 1.8,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.12,
+              "value": 0
+            },
+            {
+              "frame": 1.16,
+              "value": 0
+            },
+            {
+              "frame": 1.48,
+              "value": 255
+            },
+            {
+              "frame": 1.8,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.12,
+              "value": 56.162
+            },
+            {
+              "frame": 1.8,
+              "value": 87.682
+            }
+          ]
+        }
+      },
+      "shengjie/j6": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.04,
+              "value": 0.2
+            },
+            {
+              "frame": 0.28,
+              "value": 0.6
+            },
+            {
+              "frame": 1.04,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.04,
+              "value": 0.5
+            },
+            {
+              "frame": 0.28,
+              "value": 1.2
+            },
+            {
+              "frame": 1.04,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.84,
+              "value": 255
+            },
+            {
+              "frame": 1.04,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.04,
+              "value": -24.874
+            },
+            {
+              "frame": 0.12,
+              "value": 12.918666666666656
+            },
+            {
+              "frame": 0.28,
+              "value": 88.504
+            },
+            {
+              "frame": 1.04,
+              "value": -56.11
+            }
+          ]
+        }
+      },
+      "shengjie/j5": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.04,
+              "value": 1
+            },
+            {
+              "frame": 0.28,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.04,
+              "value": 1.3
+            },
+            {
+              "frame": 0.28,
+              "value": 0.3
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.04,
+              "value": 42.227
+            },
+            {
+              "frame": 0.28,
+              "value": 139.408
+            }
+          ],
+          "x": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.16,
+              "value": 255
+            },
+            {
+              "frame": 0.28,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie/j51": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.12,
+              "value": 1
+            },
+            {
+              "frame": 0.36,
+              "value": 1
+            },
+            {
+              "frame": 0.6,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.12,
+              "value": 1.3
+            },
+            {
+              "frame": 0.36,
+              "value": 1.6
+            },
+            {
+              "frame": 0.6,
+              "value": 0.3
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.12,
+              "value": -42.806
+            },
+            {
+              "frame": 0.6,
+              "value": 78.092
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.08,
+              "value": 0
+            },
+            {
+              "frame": 0.12,
+              "value": 255
+            },
+            {
+              "frame": 0.36,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.12,
+              "value": -27.188
+            }
+          ]
+        }
+      },
+      "shengjie/j52": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            },
+            {
+              "frame": 0.48,
+              "value": 255
+            },
+            {
+              "frame": 0.72,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.24,
+              "value": 0.7
+            },
+            {
+              "frame": 0.48,
+              "value": 1
+            },
+            {
+              "frame": 0.72,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.24,
+              "value": 1
+            },
+            {
+              "frame": 0.48,
+              "value": 1.5
+            },
+            {
+              "frame": 0.72,
+              "value": 0.3
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.24,
+              "value": -42.806
+            },
+            {
+              "frame": 0.72,
+              "value": 61.317
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.24,
+              "value": 63.051
+            }
+          ]
+        }
+      },
+      "shengjie/j53": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.36,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            },
+            {
+              "frame": 0.64,
+              "value": 255
+            },
+            {
+              "frame": 0.88,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.4,
+              "value": 0.7
+            },
+            {
+              "frame": 0.64,
+              "value": 1
+            },
+            {
+              "frame": 0.88,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.4,
+              "value": 1
+            },
+            {
+              "frame": 0.64,
+              "value": 1.5
+            },
+            {
+              "frame": 0.88,
+              "value": 0.3
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.4,
+              "value": 41.07
+            },
+            {
+              "frame": 0.88,
+              "value": 115.692
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.4,
+              "value": 36.442
+            }
+          ]
+        }
+      },
+      "shengjie/j4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            },
+            {
+              "frame": 0.48,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.7
+            },
+            {
+              "frame": 0.24,
+              "value": 1.6
+            },
+            {
+              "frame": 0.48,
+              "value": 1.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.24,
+              "value": 1.6
+            },
+            {
+              "frame": 0.48,
+              "value": 1.8
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -95
+            }
+          ]
+        }
+      },
+      "shengjie/j41": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            },
+            {
+              "frame": 0.48,
+              "value": 255
+            },
+            {
+              "frame": 0.72,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.24,
+              "value": 0.7
+            },
+            {
+              "frame": 0.48,
+              "value": 1.6
+            },
+            {
+              "frame": 0.72,
+              "value": 1.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.24,
+              "value": 1
+            },
+            {
+              "frame": 0.48,
+              "value": 1.6
+            },
+            {
+              "frame": 0.72,
+              "value": 1.8
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.24,
+              "value": -95
+            }
+          ]
+        }
+      },
+      "shengjie/j3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.72,
+              "value": 255
+            },
+            {
+              "frame": 0.92,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.04,
+              "value": 0.9
+            },
+            {
+              "frame": 0.28,
+              "value": 1.3
+            },
+            {
+              "frame": 0.92,
+              "value": 1.7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.04,
+              "value": 0.7
+            },
+            {
+              "frame": 0.28,
+              "value": 3
+            },
+            {
+              "frame": 0.92,
+              "value": 0.3
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.04,
+              "value": -83.625
+            },
+            {
+              "frame": 0.28,
+              "value": -9.329
+            },
+            {
+              "frame": 0.92,
+              "value": -89.417
+            }
+          ]
+        }
+      },
+      "shengjie/j2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.2
+            },
+            {
+              "frame": 0.04,
+              "value": 0.5
+            },
+            {
+              "frame": 0.12,
+              "value": 1
+            },
+            {
+              "frame": 0.28,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.2
+            },
+            {
+              "frame": 0.04,
+              "value": 0.4
+            },
+            {
+              "frame": 0.12,
+              "value": 0.7
+            },
+            {
+              "frame": 0.28,
+              "value": 0.6
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.28,
+              "value": 255
+            },
+            {
+              "frame": 0.32,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 56.162
+            },
+            {
+              "frame": 0.04,
+              "value": -25.135
+            },
+            {
+              "frame": 0.12,
+              "value": 30.863
+            },
+            {
+              "frame": 0.28,
+              "value": 14.619
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.04,
+              "value": -58.138
+            }
+          ]
+        }
+      },
+      "shengjie/j21": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.08,
+              "value": 0.2
+            },
+            {
+              "frame": 0.12,
+              "value": 0.5
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            },
+            {
+              "frame": 0.36,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.08,
+              "value": 0.2
+            },
+            {
+              "frame": 0.12,
+              "value": 0.4
+            },
+            {
+              "frame": 0.2,
+              "value": 0.7
+            },
+            {
+              "frame": 0.36,
+              "value": 0.6
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.08,
+              "value": 0
+            },
+            {
+              "frame": 0.12,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.36,
+              "value": 255
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.08,
+              "value": 56.162
+            },
+            {
+              "frame": 0.12,
+              "value": -25.135
+            },
+            {
+              "frame": 0.2,
+              "value": 30.863
+            },
+            {
+              "frame": 0.36,
+              "value": 14.619
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.12,
+              "value": -15.333
+            }
+          ]
+        }
+      },
+      "shengjie/j22": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.16,
+              "value": 0.2
+            },
+            {
+              "frame": 0.2,
+              "value": 0.5
+            },
+            {
+              "frame": 0.28,
+              "value": 1
+            },
+            {
+              "frame": 0.44,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.16,
+              "value": 0.2
+            },
+            {
+              "frame": 0.2,
+              "value": 0.4
+            },
+            {
+              "frame": 0.28,
+              "value": 0.7
+            },
+            {
+              "frame": 0.44,
+              "value": 0.6
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.16,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.28,
+              "value": 255
+            },
+            {
+              "frame": 0.44,
+              "value": 255
+            },
+            {
+              "frame": 0.48,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.16,
+              "value": 56.162
+            },
+            {
+              "frame": 0.2,
+              "value": -25.135
+            },
+            {
+              "frame": 0.28,
+              "value": 30.863
+            },
+            {
+              "frame": 0.44,
+              "value": 14.619
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.2,
+              "value": 41.356
+            }
+          ]
+        }
+      },
+      "shengjie/j23": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.28,
+              "value": 0.2
+            },
+            {
+              "frame": 0.32,
+              "value": 0.5
+            },
+            {
+              "frame": 0.4,
+              "value": 1
+            },
+            {
+              "frame": 0.56,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.28,
+              "value": 0.2
+            },
+            {
+              "frame": 0.32,
+              "value": 0.4
+            },
+            {
+              "frame": 0.4,
+              "value": 0.7
+            },
+            {
+              "frame": 0.56,
+              "value": 0.6
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.28,
+              "value": 0
+            },
+            {
+              "frame": 0.32,
+              "value": 255
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            },
+            {
+              "frame": 0.56,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.28,
+              "value": 56.162
+            },
+            {
+              "frame": 0.32,
+              "value": -25.135
+            },
+            {
+              "frame": 0.4,
+              "value": 30.863
+            },
+            {
+              "frame": 0.56,
+              "value": 14.619
+            }
+          ],
+          "x": [
+            {
+              "frame": 0.32,
+              "value": -62.767
+            }
+          ]
+        }
+      },
+      "shengjie/j1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.04,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.04,
+              "value": 2
+            }
+          ],
+          "x": [],
+          "y": [
+            {
+              "frame": 0.04,
+              "value": -26.609
+            },
+            {
+              "frame": 0.4,
+              "value": 100
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie/j12": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.04,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.04,
+              "value": 2
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.04,
+              "value": 41.648999999999994
+            },
+            {
+              "frame": 0.24,
+              "value": 100
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 127.5
+            },
+            {
+              "frame": 0.24,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie/j13": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.2,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.2,
+              "value": 2
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.2,
+              "value": -26.609
+            },
+            {
+              "frame": 0.6,
+              "value": 100
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.16,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie/j14": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.4,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.4,
+              "value": 2
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.4,
+              "value": -26.609
+            },
+            {
+              "frame": 0.8,
+              "value": 100
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.36,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            },
+            {
+              "frame": 0.8,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shengjie": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

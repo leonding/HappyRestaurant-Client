@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "fc195cad-dbf4-4c7e-9e77-db1615865634",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 159,
+  "height": 159,
+  "platformSettings": {},
+  "subMetas": {
+    "travel_img_zhezhao": {
+      "ver": "1.0.4",
+      "uuid": "e2d939ab-1429-4a22-8f98-94fe7c415b7e",
+      "rawTextureUuid": "fc195cad-dbf4-4c7e-9e77-db1615865634",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 6,
+      "trimY": 6,
+      "width": 148,
+      "height": 148,
+      "rawWidth": 159,
+      "rawHeight": 159,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

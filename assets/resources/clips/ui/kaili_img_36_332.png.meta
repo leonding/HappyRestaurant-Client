@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "1b374f6f-ca16-46e1-a34f-2ace461c0cf9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "kaili_img_36_332": {
+      "ver": "1.0.4",
+      "uuid": "66ac86ce-627e-4647-bbc1-0616117c0014",
+      "rawTextureUuid": "1b374f6f-ca16-46e1-a34f-2ace461c0cf9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 128,
+      "height": 128,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

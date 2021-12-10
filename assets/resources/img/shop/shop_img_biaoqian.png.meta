@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "21efe860-225e-47ba-9961-ebf7c4bb5e45",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 101,
+  "height": 101,
+  "platformSettings": {},
+  "subMetas": {
+    "shop_img_biaoqian": {
+      "ver": "1.0.4",
+      "uuid": "0b420d8f-e255-41ad-9b0f-60d5740ccd6b",
+      "rawTextureUuid": "21efe860-225e-47ba-9961-ebf7c4bb5e45",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 99,
+      "height": 99,
+      "rawWidth": 101,
+      "rawHeight": 101,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

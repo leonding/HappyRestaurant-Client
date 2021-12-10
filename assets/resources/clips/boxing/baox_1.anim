@@ -1,0 +1,205 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "baox_1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.6,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "scaleX": [],
+      "scaleY": [],
+      "y": [],
+      "opacity": []
+    },
+    "paths": {
+      "baox_1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.02
+            },
+            {
+              "frame": 0.32,
+              "value": 0.98
+            },
+            {
+              "frame": 0.48,
+              "value": 0.96
+            },
+            {
+              "frame": 0.6,
+              "value": 1.04
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 0.94
+            },
+            {
+              "frame": 0.32,
+              "value": 1.04
+            },
+            {
+              "frame": 0.48,
+              "value": 1.08
+            },
+            {
+              "frame": 0.6,
+              "value": 0.97
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": -3
+            },
+            {
+              "frame": 0.32,
+              "value": 1.8
+            },
+            {
+              "frame": 0.48,
+              "value": 4.1
+            },
+            {
+              "frame": 0.6,
+              "value": -0.4
+            },
+            {
+              "frame": 0.8,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "baox_1/baox_2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.44,
+              "value": 0
+            },
+            {
+              "frame": 0.48,
+              "value": 100
+            },
+            {
+              "frame": 0.8,
+              "value": 0
+            },
+            {
+              "frame": 1.6,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.48,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1.15
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.48,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1.15
+            }
+          ]
+        }
+      },
+      "baox_3": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "baox_4": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "baox_5": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "baox_2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "baox_1/baox_1": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [],
+          "y": [],
+          "opacity": []
+        }
+      }
+    }
+  },
+  "events": []
+}
