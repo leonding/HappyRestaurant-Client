@@ -83,6 +83,9 @@ var CoreHttp = cc.Class({
             }
             this.queue.splice(0,1)
         }
+        if(!result){
+            Gm.send(Events.MSG_TIMEOUT)
+        }
         this.isIng = false
         this.nextSend()
     },
@@ -109,101 +112,7 @@ var CoreHttp = cc.Class({
         xhr.open("GET", url, true);
         xhr.send();
     },
-    sendBi(id){
-        // Globalval.biUrl = "http://bi.gold.aamajiang.com/operationlog.lc"
-        if (id == null || Globalval.biUrl == null || Gm.userInfo.id== 0 || Gm.userInfo.id== null){
-            return
-        }
-        cc.log("埋点",id)
-        var sign = CryptoJS.MD5(Gm.userInfo.id + "" + id+ "@syhd2018@").toString()
-        var sendData = {}
-        sendData.playerID = Gm.userInfo.id
-        sendData.systemId = id
-        sendData.secret = sign
 
-        var xhr = cc.loader.getXMLHttpRequest();
-        xhr.timeout = 5000;
-        xhr.open("POST", Globalval.biUrl);
-        if (cc.sys.isNative) {
-            xhr.setRequestHeader("Accept-Encoding", "gzip,deflate", "text/html;charset=UTF-8");
-        }else{
-            xhr.setRequestHeader("Content-Type" , "application/x-www-form-urlencoded");  
-        }
-        xhr.onreadystatechange = function () {};
-        var str = "";
-        for (const key in sendData) {
-            if (str != ""){
-                str = str + "&"
-            }
-            str = str + key + "=" + sendData[key]
-        }
-        xhr.send(str);
-    },
-    sendFormBUG(dd,handler){
-        if(!cc.sys.isNative){
-            Globalval.playerFeedUrl = "http://down.gold.bianfenghd.com/update/gm/PlayerFeedback.lc"
-        }
-    
-       // Globalval.playerFeedUrl = "http://d3pcokmk72k3af.cloudfront.net/update/gm/PlayerFeedback.lc"
-        if (Globalval.playerFeedUrl == null || Gm.userInfo.id== 0 || Gm.userInfo.id== null){
-            return
-        }
-        // cc.log("埋点",id)
-        var time = Gm.userData.getTime_m()
-        var sign = CryptoJS.MD5(Gm.userInfo.id + "" + time+ "@syhd2018@").toString()
-        var sendData = {}
-        sendData.pId = Gm.userInfo.id
-        sendData.time = time
-        sendData.secret = sign
-
-        sendData.data = JSON.stringify(dd)
-        var self = this
-        var xhr = cc.loader.getXMLHttpRequest();
-        xhr.timeout = 8000;
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4 && (xhr.status >= 200 && xhr.status < 300)) {
-                var respText = xhr.responseText;
-                var ret = null;
-                try {
-                    console.log(respText);
-                    ret = JSON.parse(respText);
-                } catch (e) {
-                    console.log("err:" + e);
-                }
-                if(handler){
-                    handler(ret)
-                }
-            }
-            else if (xhr.readyState === 4) {
-                if(xhr.hasRetried){
-                    return
-                }
-                console.log("HTTP连接失败")
-                if(handler){
-                    handler(null)
-                }
-            }
-            else {
-                // console.log('other readystate:' + xhr.readyState + ', status:' + xhr.status);
-            }
-        };
-
-        xhr.open("POST", Globalval.playerFeedUrl,true);
-        if (cc.sys.isNative) {
-            xhr.setRequestHeader("Accept-Encoding", "gzip,deflate", "text/html;charset=UTF-8");
-        }else{
-            xhr.setRequestHeader("Content-Type" , "application/x-www-form-urlencoded");  
-        }
-        var str = "";
-        for (const key in sendData) {
-            if (str != ""){
-                str = str + "&"
-            }
-            str = str + key + "=" + sendData[key]
-        }
-        console.log("发送数据====>",str,Globalval.playerFeedUrl)
-        xhr.send(str);
-    },
     downloadFile2(url, path, completeCallback, processCallback){
         var lastLoaded = 0
         var lastTime = new Date().getTime()

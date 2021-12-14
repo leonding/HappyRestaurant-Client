@@ -11,3 +11,8 @@
 	//账号登录
 	exports.OP_PLAYER_LOGIN_S = 10002
 
+	//清理桌子
+	exports.OP_CLEAN_TABLE_C  = 10003
+	
+	exports.OP_CLEAN_TABLE_S  = 10004
+

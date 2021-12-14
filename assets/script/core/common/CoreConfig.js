@@ -85,7 +85,7 @@ cc.Class({
     getErr:function(code){
         var item = this.getKeyById("ErrorCodeConfig","errorcode",code)
         if (item){
-            return item.client_description
+            return item.description
         }
         return "错误码：" + code
     },

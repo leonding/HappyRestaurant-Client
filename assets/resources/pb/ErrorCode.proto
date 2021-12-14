@@ -1,6 +1,8 @@
-
 syntax="proto3";
 package com.game.message.proto;
+
+option java_package = "org.tinygame.herostory.msg";
+option java_outer_classname = "ErrorCodeProto";
 
 enum OPErrorCode {
 
@@ -14,9 +16,7 @@ enum OPErrorCode {
     SERVER_FAIL = -1000;
     //失败
     FAIL = -10000;
-    //银两不足
-    NOT_ENOUGH_SILVER = -10001;
-    //元宝不足
-    NOT_ENOUGH_GOLDEN = -10002;
+    //桌子已经清理干净
+    TABLE_IS_CLEAN = -10001;
 }
 

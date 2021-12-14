@@ -11,10 +11,12 @@ message tableinfo {
 
 // 清理餐桌
 message CleanTableCmd {
-    int32 number = 1;//餐桌号
+    int64 playerId = 1;
+    int32 number = 2;//餐桌号
 }
 
 // 清理餐桌返回
 message CleanTableRet {
-    int32 cash = 1;//红包奖励
+    int32 result = 1;//返回码
+    int32 cash = 2;//红包奖励
 }

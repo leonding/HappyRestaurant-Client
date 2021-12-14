@@ -32,6 +32,11 @@ cc.Class({
         cc.log("创建登录============================",Ls.get(327))
 
     },
+
+    register:function(){
+        this.events[Events.MSG_TIMEOUT] = this.onMsgTimeout.bind(this);
+    },
+
     enableUpdateView:function(data){
         if (data){
             this.loginBtn.interactable = true
@@ -91,14 +96,8 @@ cc.Class({
         this.logic.onLogin()
     },
     
-    onInheritBtn(){
-        Gm.box({msg:Ls.get(5437),btnNum:2},(type)=>{
-            if(type == 1){
-                // Gm.ui.create("ChangeAccountView",2)
-                Gm.ui.create("UserInheritView",2)
-            }
-        })
+    onMsgTimeout(){
+        this.loginBtn.interactable = true;
     },
-
 });
 

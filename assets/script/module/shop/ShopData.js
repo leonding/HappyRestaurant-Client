@@ -1,4 +1,4 @@
-var HeroInfo = require("HeroInfo")
+// var HeroInfo = require("HeroInfo")
 cc.Class({
     properties: {
        

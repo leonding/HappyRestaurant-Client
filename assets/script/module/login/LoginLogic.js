@@ -67,45 +67,7 @@ cc.Class({
     onNetLogout:function(args){
         Gm.netLogic.clearData()
         this.removeTimeOut()
-        var userNum = 0
-        if (args.result == -60026){
-            Gm.ui.removeByName("CreateRole")
-            Gm.ui.create("PlateNumberBox",{type:2,boxType:1,msg:6000011,ok:"进入游戏",cancel:"立即认证",msg:6000011,func:(btnType)=>{
-                if (btnType == 1){
-                    Gm.loginData.setIgnore(true)
-                    Gm.send(Events.MSG_CONNECT,{host:Gm.loginData.ip,port:Gm.loginData.port})
-                }
-            }})
-            return
-        }else if (args.result == -60017){//游客时长限定
-            var dd = {type:2,boxType:1,cancel:"立即认证",msg:6000011}
-            var isLogin = Gm.ui.getLayerActive("LoginView")
-            if (!isLogin){
-                dd.ok = "退出游戏"
-                dd.func = (btnType)=>{
-                    if (btnType == 1){
-                        Gm.ui.removeAllView()
-                        Gm.ui.create("LoginView",1)
-                    }
-                }
-            }
-            Gm.ui.create("PlateNumberBox",dd)
-            return
-        }else if (args.result == -60018){
-            userNum = 6000003
-        }else if (args.result == -60019){
-            userNum = 6000005
-        }else if (args.result == -60020){
-            userNum = 6000004
-        }
 
-        if (userNum > 0){
-            Gm.ui.create("PlateNumberBox",{type:2,boxType:4,msg:userNum,func:(btnType)=>{
-                Gm.ui.removeAllView()
-                Gm.ui.create("LoginView",1)
-            }})
-            return
-        }
         var dd = {}
         dd.btnNum = 1
         dd.msg = args.content || Gm.config.getErr(args.result)
@@ -166,10 +128,10 @@ cc.Class({
 
         Gm.ui.removeByName("LoginView")
     },
-    onNetErrorCode:function(args){
-       Gm.floating(Gm.config.getErr(args.errCode))
-       Gm.removeLoading()
-    },
+    // onNetErrorCode:function(args){
+    //    Gm.floating(Gm.config.getErr(args.errCode))
+    //    Gm.removeLoading()
+    // },
     onLogin:function(){
         Gm.playerNet.login(Gm.loginData.getLoginData())
         if(this.view){

@@ -36,8 +36,16 @@ cc.Class({
 
     onEmailClick:function(){
         
+        var data = {}
+        data.playerId = 1
+        data.number = 21
+
+        Gm.getLogic("HomeLogic").sendTableClean(data)
+
     },
    
+
+
 
 });
 

@@ -11,7 +11,5 @@ cc.Class({
     login:function(data){
         Gm.sendCmdHttp(MSGCode.OP_PLAYER_LOGIN_C,data)
     },
-    createRole:function(data){
-        Gm.sendCmdHttp(MSGCode.OP_PLAYER_CREATE_C,data)
-    },
+
 });

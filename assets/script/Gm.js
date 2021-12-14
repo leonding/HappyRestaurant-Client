@@ -50,16 +50,12 @@ cc.Class({
         window.EquipFunc = require("EquipFunc")
         window.AtyFunc = require("AtyFunc")
         window.ActionFunc = require("ActionFunc")
-        window.TowerFunc = require("TowerFunc")
-        window.PictureFunc = require("PictureFunc")
         window.HeroFunc = require("HeroFunc")
-        window.LotteryFunc = require("LotteryFunc")
-        window.DungeonFunc = require("DungeonFunc")
+
         window.EventFunc = require("EventFunc")
 
         window.FilterWord = require("FilterWord")
-        window.OreFunc = require("OreFunc")
-        window.HegemonyFunc = require("HegemonyFunc")
+
     },
     initCore:function(){
         this.events = this.createClass("CoreEvents")
@@ -75,6 +71,7 @@ cc.Class({
         this.createModuleItem("Net") //网络
         this.createModuleItem("User") //角色
         this.createModuleItem("Login") //登录
+        this.createModuleItem("Home") //大厅        0
         this.createModuleItem("Mission") //任务
         this.createModuleItem("Mail") //任务
         this.createModuleItem("Shop") //商城
@@ -83,7 +80,7 @@ cc.Class({
     },
     initNet:function(){
         //proto对应文件
-        var nets = ["Player","CommonProto","Task","Shop","Sign"]
+        var nets = ["Player","CommonProto","Task","Shop","Sign","Table"]
         for(var i = 0 ;i < nets.length;i++){
             this[ lFirst(nets[i]) + "Net"] = this.createClass(nets[i] + "Net")
         }

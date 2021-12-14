@@ -9,7 +9,7 @@ cc.Class({
         nowLab:cc.Label,
         rich:cc.RichText,
         itemNodes:cc.Node,
-        vipTextUI:require("VipTextUI"),
+        // vipTextUI:require("VipTextUI"),
         awardNode:cc.Node
     },
     enableUpdateView(args){
@@ -21,9 +21,9 @@ cc.Class({
 
             // var lvConf = Gm.config.getVip(args.nowLv)
             // this.rich.string = lvConf.info
-            this.vipTextUI.setVipLv(args.nowLv)
+            // this.vipTextUI.setVipLv(args.nowLv)
             this.awardNode.parent = null
-            this.vipTextUI.addNode(this.awardNode)
+            // this.vipTextUI.addNode(this.awardNode)
 
             Func.destroyChildren(this.itemNodes)
 

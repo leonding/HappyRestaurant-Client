@@ -92,7 +92,7 @@ cc.Class({
         if (this.nums > 0){
             this.nums = this.nums - dt
             if (this.nums < 0){
-                Gm.send(Events.GUIDE_ENTER_DONE,{sender:this})
+               
             }
         }
     },
@@ -101,7 +101,7 @@ cc.Class({
     },
     onEnable(){
         this.nums = 0
-        Gm.send(Events.GUIDE_ENTER,{sender:this})
+
         this.runOpenAction()
         // Gm.bi.ui(this.node._name)
         this.sendBi()
