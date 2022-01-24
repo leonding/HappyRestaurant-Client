@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "road_table1_in",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8333333333333334,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "road1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                185,
+                494
+              ],
+              "motionPath": [
+                [
+                  -44,
+                  494,
+                  158,
+                  494,
+                  -44,
+                  415
+                ],
+                [
+                  -44,
+                  109,
+                  -44,
+                  282,
+                  278,
+                  109
+                ]
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                295,
+                109
+              ]
+            }
+          ]
+        }
+      },
+      "road2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -146.535,
+                489.388,
+                0
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                -132.751,
+                112.615,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

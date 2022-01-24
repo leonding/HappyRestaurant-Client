@@ -1,97 +1,56 @@
+syntax="proto3";
 package com.game.message.proto;
 
 import "Const.proto";
 
-//道具信息 (除杂货店外其余只有id,status两个字段)
+//道具信息
 message ShopItemInfo {
-    optional string id = 1; //商城唯一id
-    optional int32 baseId = 2; //物品id
-    optional int32 itemType = 3; //物品type
-    optional int32 count = 4; //物品count
-    optional int32 buyType = 5; //购买类型货币或道具
-    optional int32 buyPrice = 6; //购买价格折扣后的价格
-    optional int32 buyDiscount = 7; //购买折扣
-    optional int32 level = 8; //物品等级 如果没有等级就不显示
-    optional int32 status = 9; //是否已购买（0:未购买，1:已购买）
+    string id = 1; //商城唯一id
+    int32 baseId = 2; //物品id
+    int32 itemType = 3; //物品type
+    int32 count = 4; //物品count
+    int32 buyType = 5; //购买类型货币或道具
+    int32 buyPrice = 6; //购买价格折扣后的价格
+    int32 buyDiscount = 7; //购买折扣
+    int32 level = 8; //物品等级 如果没有等级就不显示
+    int32 status = 9; //是否已购买（0:未购买，1:已购买）
 }
 
 message BuyShopItem {
-    optional int32 buyShopId = 1;//已购买的物品Id(模块商店)
-    optional int32 count = 2;//购买数量
+    int32 buyShopId = 1;//已购买的物品Id(模块商店)
+    int32 count = 2;//购买数量
 }
 
 message ShopItemMsg {
-    optional ShopType shopType = 1;
-    repeated ShopItemInfo shopItems = 2; //道具信息(杂货商店)
-    optional int32 hasRefreshNum = 3; //已刷新次数(杂货商店)
-    repeated BuyShopItem buyShopItem = 4;//已购买的物品Id(模块商店)
-    optional int64 nextRefreshTime = 5; //下次刷新时间，在线判定到此时间，重新请求服务器刷新数据
+    ShopItemInfo shopItems = 1; //道具信息(杂货商店)
+    int32 hasRefreshNum = 2; //已刷新次数(杂货商店)
+    BuyShopItem buyShopItem = 3;//已购买的物品Id(模块商店)
+    int64 nextRefreshTime = 4; //下次刷新时间，在线判定到此时间，重新请求服务器刷新数据
 }
 
 //请求商店道具信息
 message OPShopInfo {
-    optional int64 playerId = 1;
-    repeated ShopType shopType = 2;
-    optional int32 pictureId = 3;//包含拼图商店请求需要携带此字段
+    int64 playerId = 1;
+    int32 pictureId = 3;//包含拼图商店请求需要携带此字段
 }
 
 //回应商店道具信息
 message OPShopInfoRet {
-    optional int64 playerId = 1;
-    repeated ShopItemMsg shopItemMsg = 2; //道具信息
+    int64 playerId = 1;
+    ShopItemMsg shopItemMsg = 2; //道具信息
 }
 
 //请求购买物品(注：购买装备需判定背包是否已满)
 message OPShopBuyItem {
-    optional int64 playerId = 1;
-    required int32 type = 2; //购买类型 单个购买1（单个购买要发id）, 全部购买0
-    optional string id = 3; //商城唯一id
-    optional ShopType shopType = 4;//商店类型
-    optional int32 count = 5;//购买数量
+    int64 playerId = 1;
+    int32 type = 2; //购买类型 单个购买1（单个购买要发id）, 全部购买0
+    string id = 3; //商城唯一id
+    int32 count = 4;//购买数量
 }
 
 //返回购买物品
 message OPShopBuyItemRet {
-    optional int64 playerId = 1;
-    repeated ShopItemInfo shopItems = 2; //成功购买所有后刷新道具信息(杂货商店)
-    repeated ShopItemInfo buyItems = 3; //购买成功的道具信息(杂货商店)
-    optional ShopType shopType = 4;//商店类型
-}
-
-//请求刷新商店
-message OPShopRefreshItem {
-    optional int64 playerId = 1;
-    optional ShopType shopType = 2;//商店类型
-}
-
-//回应刷新商店
-message OPShopRefreshItemRet {
-    optional int64 playerId = 1;
-    repeated ShopItemInfo shopItems = 2; //道具信息(杂货商店)
-    optional ShopType shopType = 3;//商店类型
-}
-
-//请求购买银两
-message OPShopBuySilver {
-    optional int64 playerId = 1;
-    required int32 type = 2; //购买类型 单个购买1, 全部购买0
-}
-
-//回应请求购买银两
-message OPShopBuySilverRet {
-    optional int64 playerId = 1;
-    optional int32 silver = 2; //购买的银两
-    optional int32 hasBuyNums = 3; //已购买数量
-}
-
-//购买宝石
-message OPShopBuyGem {
-    optional int64 playerId = 1;
-    optional int32 baseId = 2; //对应等级的道具ID
-    optional int32 count = 3;
-}
-
-//返回购买宝石
-message OPShopBuyGemRet {
-    optional int64 playerId = 1;
+    int64 playerId = 1;
+    ShopItemInfo shopItems = 2; //成功购买所有后刷新道具信息(杂货商店)
+    ShopItemInfo buyItems = 3; //购买成功的道具信息(杂货商店)
 }

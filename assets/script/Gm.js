@@ -47,10 +47,7 @@ cc.Class({
         window.Character = require("Character")
         window.Ls = require("Languages")
         
-        window.EquipFunc = require("EquipFunc")
-        window.AtyFunc = require("AtyFunc")
         window.ActionFunc = require("ActionFunc")
-        window.HeroFunc = require("HeroFunc")
 
         window.EventFunc = require("EventFunc")
 
@@ -71,16 +68,14 @@ cc.Class({
         this.createModuleItem("Net") //网络
         this.createModuleItem("User") //角色
         this.createModuleItem("Login") //登录
-        this.createModuleItem("Home") //大厅        0
-        this.createModuleItem("Mission") //任务
-        this.createModuleItem("Mail") //任务
+        this.createModuleItem("Home") //大厅    
         this.createModuleItem("Shop") //商城
 
         this.userInfo = this.createClass("UserInfo")
     },
     initNet:function(){
         //proto对应文件
-        var nets = ["Player","CommonProto","Task","Shop","Sign","Table"]
+        var nets = ["Player","CommonProto","Task","Shop","Table"]
         for(var i = 0 ;i < nets.length;i++){
             this[ lFirst(nets[i]) + "Net"] = this.createClass(nets[i] + "Net")
         }

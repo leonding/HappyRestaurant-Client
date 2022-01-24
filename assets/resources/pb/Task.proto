@@ -20,14 +20,7 @@ message OPTaskListRet
     optional int64 playerId = 1;
 	repeated TaskInfo taskList = 2;         // 任务列表
     repeated int32 activeReceivedList = 3;  // 活跃度已领取列表
-	optional int64 dailyClearTime = 4;	// 日常任务下次刷新时间
 
-	optional bool activeAtyOpen = 5;	// 活跃度活动 是否开启
-	optional int64 activeAtyTime1 = 6;	// 活跃度活动 关闭或下次开启时间
-	optional int32 activeAtyDay = 7;    // 活跃度活动 已领取天数
-	optional int64 activeAtyTime2 = 8;  // 上次领取时间(一天只能领取一次)
-
-    optional int64 weekClearTime = 9;	// 周常任务下次刷新时间
 }
 
 // 领取任务奖励
@@ -54,15 +47,4 @@ message OPTaskActiveReceiveRet
 {
     optional int64 playerId = 1;
     optional int32 activeId = 2;    // 活跃度id
-}
-
-// 领取活跃度活动奖励
-message OPActiveActivityReceive {
-    optional int64 playerId = 1;
-}
-
-// 领取活跃度活动奖励返回
-message OPActiveActivityReceiveRet
-{
-    optional int64 playerId = 1;
 }
