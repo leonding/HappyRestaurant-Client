@@ -23,7 +23,7 @@ cc.Class({
     },
 
     start () {
-        this.gen_round_enmey();
+        this.intervalGenGuest()
     },
 
     onEnable(){
@@ -63,17 +63,27 @@ cc.Class({
         this.road_path = road_path
     },
 
-    gen_round_enmey: function(){
-        for(var i = 0; i < 1; i++) {
-            this.scheduleOnce(function() {
-                var enemy = cc.instantiate(this.enemy_prefabs[0]);
-                this.m_mapRoot.addChild(enemy)
-                enemy.active = true;
-                var actor = enemy.getComponent("actor")   
-                
-                this.queue_guest.push(actor)
+    genGuest: function(){
+        var enemy = cc.instantiate(this.enemy_prefabs[0]);
+        this.m_mapRoot.addChild(enemy)
+        enemy.active = true;
+        var actor = enemy.getComponent("actor")   
+        
+        this.queue_guest.push(actor)
 
-                actor.run_at_road(this.road_path)
+        actor.run_at_road(this.road_path)
+    },
+
+    intervalGenGuest: function(){
+        this.schedule(()=>{
+            this.genGuest()
+        }, 5)
+    },
+
+    oneKeyFull: function(){
+        for(var i = 0; i < 20; i++) {
+            this.scheduleOnce(function() {
+                this.genGuest()
             }.bind(this), 1 * i);
         }
     },

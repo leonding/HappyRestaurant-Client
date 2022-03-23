@@ -1,9 +1,17 @@
 var State = {
     IDLE: 0, //静止
     WALK: 1, //行走
-    ATTACK: 2, //攻击
-    DEAD: 3, //死亡
-    ARRIVED: 4, //到达
+    ORDER: 2, //点餐
+    REPASE: 3, //就餐
+}
+
+var Event = {
+    LINE_UP: 0, //排队
+    HAVA_A_SEAT: 1, //入座
+    ORDER: 2,//点餐
+    REPASE: 3, //就餐
+    BILL: 4,//结账
+    LEAVE: 5, //离开
 }
 
 var Direction = {
@@ -145,15 +153,20 @@ cc.Class({
             this.next_step ++;
             if(this.next_step >= this.road_data.length) {
                 this.state = State.ARRIVED;
+                this.node.removeFromParent()
             }else{
                 this.walk_to_next();
             }
         }
     },
 
+    
+
     update (dt) {
         if(this.state == State.WALK) {
             this.walk_update(dt)
+        }else if(this.state == State.IDLE) {
+
         }
 
     },
