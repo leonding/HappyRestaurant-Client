@@ -112,7 +112,7 @@ cc.Class({
         }else if(tmpScale > 1.85){
             cc.fixBgScale = cc.winSize.height/defultSize.height
             if (cc.sys.platform == cc.sys.IPHONE){
-                tmpWid.top = 60
+                // tmpWid.top = 60
             }
         }
         tmpWid.updateAlignment()

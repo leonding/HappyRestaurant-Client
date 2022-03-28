@@ -5,13 +5,14 @@ var State = {
     REPASE: 3, //就餐
 }
 
-var Event = {
+var Action = {
     LINE_UP: 0, //排队
-    HAVA_A_SEAT: 1, //入座
-    ORDER: 2,//点餐
-    REPASE: 3, //就餐
-    BILL: 4,//结账
-    LEAVE: 5, //离开
+    SELECT_SEAT: 1, //选座
+    HAVA_A_SEAT: 2, //入座
+    ORDER: 3,//点餐
+    REPASE: 4, //就餐
+    BILL: 5,//结账
+    LEAVE: 6, //离开
 }
 
 var Direction = {
@@ -36,6 +37,30 @@ var walk_anim_params = cc.Class({
     }
 });
 
+var order_anim_params = cc.Class({
+    name: "order_anim_params",
+    properties: {
+        anim_frames: {
+            type: cc.SpriteFrame,
+            default: [],
+        },
+        anim_duration: 0.1,
+        scale_x: 1,
+    }
+});
+
+var repase_anim_params = cc.Class({
+    name: "repase_anim_params",
+    properties: {
+        anim_frames: {
+            type: cc.SpriteFrame,
+            default: [],
+        },
+        anim_duration: 0.1,
+        scale_x: 1,
+    }
+});
+
 cc.Class({
     extends: cc.Component,
 
@@ -45,7 +70,20 @@ cc.Class({
             type: walk_anim_params,
             default: [],
         },
-      
+        
+        order_anim_set: {// 0 左 1 右
+            type: order_anim_params,
+            default: [],
+        },
+
+        repase_anim_set: {// 0 左 1 右
+            type: repase_anim_params,
+            default: [],
+        },
+
+
+        bubble: cc.Button,
+
 
     },
 
@@ -54,17 +92,25 @@ cc.Class({
     onLoad () {
         this.speed = 100;
         this.state = State.IDLE;
+        this.action = Action.LINE_UP;
+        this.road_name = "road_lineup"
+
+        this.seat = 0;//座位号
 
         this.anim = this.node.getChildByName("anim");
         this.frame_anim = this.anim.addComponent("frame_anim");
 
     },
 
-    run_at_road:function(road_data){
+    setSeat: function(seat) {
+        this.seat = seat
+    },
+
+    run_at_road:function(road_name, road_data){
         if(road_data.length < 2){
             return;
         }
-
+        this.road_name = road_name;
         this.road_data = road_data;
         this.state = State.WALK;
 
@@ -136,15 +182,15 @@ cc.Class({
 
         this.node.x += sx;
         this.node.y += sy;
-        // console.log("--------------------", this.node.x, this.node.y)
-        this.node.zIndex = this.node.y + Math.abs(this.node.x)
+        // console.log("--------------------", this.node.y)
+        this.node.zIndex = ~this.node.y + ~this.node.x
 
         var guest = Gm.ui.getScript("MainView").getFrontGuest(this)
   
         if(guest) {
             var dir = guest.node.getPosition().sub(this.node.getPosition())
             var len = dir.mag();
-           if((guest.state == State.IDLE || guest.state == State.ARRIVED) && len < 25) {
+           if (guest.state == State.IDLE && len < 25) {
                this.state = State.IDLE;
            }
         }
@@ -152,21 +198,137 @@ cc.Class({
         if(this.state == State.WALK && this.walk_time > this.walk_time_total){
             this.next_step ++;
             if(this.next_step >= this.road_data.length) {
-                this.state = State.ARRIVED;
-                this.node.removeFromParent()
+                if(this.action == Action.LINE_UP) {
+                    this.state = State.IDLE
+                    this.action = Action.SELECT_SEAT
+                } else if(this.action == Action.SELECT_SEAT) {
+                    this.do_order()
+                } else if(this.action == Action.LEAVE) {
+                    this.node.removeFromParent()
+                }
+                
+
             }else{
                 this.walk_to_next();
             }
         }
     },
 
-    
+    idle_update: function() {
+        var guest = Gm.ui.getScript("MainView").getFrontGuest(this)
+        if(guest) {
+            var dir = guest.node.getPosition().sub(this.node.getPosition())
+            var len = dir.mag();
+           if (len > 25 && this.next_step < this.road_data.length) {
+               this.state = State.WALK;
+           }
+        }else{
+            if(this.next_step < this.road_data.length) {
+                this.state = State.WALK;
+            } 
+        }
+    },
+
+    play_order_anim: function(){
+        this.frame_anim.stop_anim();
+        var dir = this.anim_dir == 3 ? 1 : 0
+        this.frame_anim.sprite_frames = this.order_anim_set[dir].anim_frames;
+        this.frame_anim.duration = this.order_anim_set[dir].anim_duration;
+        this.anim.scaleX = this.order_anim_set[dir].scale_x;
+ 
+        this.frame_anim.play_loop();
+    },
+
+    do_order: function(){
+        this.state = State.ORDER
+        this.action = Action.ORDER
+        this.play_order_anim();
+        this.set_order_bubble_visible(true);
+    },
+
+    set_order_bubble_visible: function(visible){
+        this.bubble.node.active = visible;
+    },
+
+    order_bubble_onclick: function(){
+
+        this.do_repase()
+    },
+
+    order_update: function(){
+        
+    },
+
+    startRepaseCountdown: function(){
+        this.scheduleOnce(()=>{
+            this.do_leave()
+        }, 5);
+    },
+
+    do_repase: function(){
+        this.state = State.REPASE
+        this.action = Action.REPASE
+        this.play_repase_anim();
+        this.startRepaseCountdown()
+        this.set_order_bubble_visible(false)
+    },
+
+    play_repase_anim: function(){
+        var dir = this.anim_dir == 3 ? 1 : 0
+        this.frame_anim.stop_anim();
+        this.frame_anim.sprite_frames = this.repase_anim_set[dir].anim_frames;
+        this.frame_anim.duration = this.repase_anim_set[dir].anim_duration;
+        this.anim.scaleX = this.repase_anim_set[dir].scale_x;
+ 
+        this.frame_anim.play_loop();
+    },
+
+    repase_update: function(){
+
+    },
+
+    /**
+     * 结账离开
+     */
+    do_leave: function(){
+        this.state = State.WALK
+        this.action = Action.LEAVE
+        this.frame_anim.stop_anim();
+        this.frame_anim.sprite_frames = this.walk_anim_set[this.anim_dir].anim_frames;
+        this.frame_anim.duration = this.walk_anim_set[this.anim_dir].anim_duration;
+        this.anim.scaleX = this.walk_anim_set[this.anim_dir].scale_x;
+ 
+        this.frame_anim.play_loop();
+        var road_name = "road_out_seat_" + this.seat
+        var mainview = Gm.ui.getScript("MainView")
+        var data = mainview.get_road_path()
+        this.run_at_road(road_name, data[road_name])
+
+        Gm.homeData.setSeatIdle(this.seat-1)
+    },
+
+    setState: function(state){
+        this.state = State[state];
+    },
+
+    setAction: function(action){
+        this.action = Action[action];
+    },
+
+
+    isSelectSeatAction: function(){
+        return this.action == Action.SELECT_SEAT;
+    },
 
     update (dt) {
         if(this.state == State.WALK) {
             this.walk_update(dt)
         }else if(this.state == State.IDLE) {
-
+            this.idle_update(dt)
+        }else if(this.state == State.ORDER) {
+            this.order_update(dt)            
+        }else if(this.state == State.REPASE) {
+            this.repase_update(dt)
         }
 
     },

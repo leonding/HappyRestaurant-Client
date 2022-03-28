@@ -18,12 +18,12 @@ cc.Class({
 
     onLoad () {
         this._super()
-        
-        this.queue_guest = [] //排队的客人
+
     },
 
     start () {
-        this.intervalGenGuest()
+        this.startGenGuestListener()
+        this.startLineupListener()
     },
 
     onEnable(){
@@ -63,21 +63,50 @@ cc.Class({
         this.road_path = road_path
     },
 
+    get_road_path: function(){
+        return this.road_path;
+    },
+
     genGuest: function(){
         var enemy = cc.instantiate(this.enemy_prefabs[0]);
         this.m_mapRoot.addChild(enemy)
         enemy.active = true;
         var actor = enemy.getComponent("actor")   
         
-        this.queue_guest.push(actor)
+        Gm.homeData.queue_guest.push(actor)
 
-        actor.run_at_road(this.road_path)
+        var roadname = "road_lineup"
+
+        actor.run_at_road(roadname, this.road_path[roadname])
     },
 
-    intervalGenGuest: function(){
+    startGenGuestListener: function(){
         this.schedule(()=>{
             this.genGuest()
         }, 5)
+    },
+
+    startLineupListener: function(){
+        this.schedule(()=>{
+            this.selectSeat()
+        }, 1)
+    },
+    
+    selectSeat: function(){
+        var guest = this.getFirstGuest()
+        if(guest && guest.isSelectSeatAction()) {
+            var index = Gm.homeData.getSeatFirstIdleIndex();
+            if(index != -1) {
+                // cc.log("===================", index)
+                var road_name = "road_in_seat_" + (index + 1)
+                Gm.homeData.setSeatUse(index)
+                Gm.homeData.removeGuestLineupFirst()
+                guest.setState("WALK")
+                guest.setAction("SELECT_SEAT")
+                guest.setSeat(index+1)
+                guest.run_at_road(road_name, this.road_path[road_name])
+            }
+        }
     },
 
     oneKeyFull: function(){
@@ -88,14 +117,18 @@ cc.Class({
         }
     },
 
+    getFirstGuest: function(){
+        return Gm.homeData.queue_guest[0]
+    },
+
     getFrontGuest: function(guest) {
-        var length = this.queue_guest.length
+        var length = Gm.homeData.queue_guest.length
         for(var i = 0; i < length; i++) {
-            if(this.queue_guest[i] === guest) {
+            if(Gm.homeData.queue_guest[i] === guest) {
                 if(i == 0) {
                     return null
                 }else{
-                    return this.queue_guest[i-1]
+                    return Gm.homeData.queue_guest[i-1]
                 }
             }
         }
